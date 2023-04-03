@@ -1,10 +1,11 @@
 import React from "react";
 import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
+import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
 import "./message.css";
 const Message = ({onBack}) => {
   return (
     <div>
-        <button style={{ color: "black" }} onClick={onBack}>back</button>
+      <ArrowCircleLeftIcon className="circle" onClick={onBack} />
       <div className="container">
         <div className="icons__container">
           <CheckCircleOutlineIcon />
